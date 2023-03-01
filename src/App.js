@@ -1,18 +1,23 @@
-import React from 'react';
+import React from "react";
+import GuessingGame from "./GuessingGame";
+import Styles from "./Styles.module.css"
+import Footer from "./Footer.js";
 
 function App() {
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// const [] = useState();
+
+
+
+
+return (
+  <div className={Styles.background}>
+
+
+    <GuessingGame />
+ 
+   <Footer />
+  </div>
+);
 }
 
 export default App;

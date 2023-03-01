@@ -1,0 +1,38 @@
+.background{
+  background-color: #ac73ff;
+  text-align: center;
+  max-height: fit-content;
+
+}
+.textcolor{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.heading {
+  background-color: #D83f87;
+  color:white;
+  padding:15px
+}
+.button {
+  font-style: bold;
+  margin: 10px;
+  font-size: 12px;
+  padding: 10px;
+  height: 75px;
+  width: 75px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.footer{
+  background-color: #D83f87;
+  text-align: center;
+  font-size: 15px;
+  font-size: bold;
+  padding:10px;
+  color: white; 
+}
+
+a{
+  color:white;
+}
